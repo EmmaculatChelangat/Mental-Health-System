@@ -31,7 +31,9 @@ span{
     display: inline-block;
     text-decoration: none;
     padding: 14px 40px;
-    background-image: linear-gradient(to right, #df4881, #c430d7);
+    /* background-image: linear-gradient(to right, #df4881, #c430d7); */
+    /* background-image: linear-gradient(to right, #3586ff, #053986); */
+    background-image: linear-gradient(to right, cyan, rgb(9, 105, 105));
     font-size: 20px;
     border-radius: 30px;
     border-top-right-radius: 0;
@@ -200,3 +202,30 @@ span{
         visibility: visible;
     }
 }
+
+
+.wrapper-container{
+    background: #ccc;
+    z-index: 99;
+  }
+    /* boxes */
+  .boxes{
+      margin-top: 50px;
+      margin-left: 50px;
+      margin-right: 50px;
+      display: grid;
+      grid-gap: 20px;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+
+  }
+  .box{
+      background: #fff;
+      text-align: center;
+      padding: 1.5rem 2rem;
+  }
+  .nav{
+      z-index: 99;
+      }
+  .logo{
+      align-items: center;
+  }
